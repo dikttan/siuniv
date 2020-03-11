@@ -1,0 +1,50 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  background-image: url(3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.wrapper {
+  height: 590px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form {
+  background-color: #ff3333;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 60px;
+  padding-top: 50px;
+  border-radius: 30px;
+}
+#button {
+  background-color: black;
+  height: 30px;
+  width: 181px;
+  color: white;
+  border: 2px solid black;
+  transition: 0.3s;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.fi {
+  border-bottom: 2px solid   #f1cbbd ;
+  border: 0;
+  height: 40px;
+  width: 170px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+#logo {
+  color: #a86b73 ;
+  text-align: center;
+}
+
+
+header {
+  background-color: #fcf7f8;
+  overflow: hidden;
+}

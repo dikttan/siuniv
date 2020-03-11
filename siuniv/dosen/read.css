@@ -1,0 +1,107 @@
+*{
+  font-family: fantasy;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  background-image: url(../login/2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#logo h1{
+  text-align: left;
+  padding-left: 5px;
+  /* font-size: 24px; */
+}
+header {
+height: 50px;
+}
+nav ul li  a {
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  text-decoration: none;
+  float: right;
+}
+nav li {
+  display: inline-block;
+  width: 138px;
+}
+header {
+  background-color: #fa1212 ;
+  overflow: hidden;
+}
+.wrapper {
+  height: 470px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tbl {
+  background-color:  #836fff ;
+  background-color: rgba(153, 153, 255, 0.7);
+  padding-top: 50px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 50px;
+  border-radius: 20px;
+}
+table {
+  padding: 50px;
+  font-size: 17px;
+}
+.no {
+  text-align: center;
+  width: 40px;
+}
+.hm {
+  width: 125px;
+  height: 40px;
+  text-align: center;
+}
+.aksi {
+  width: 125px;
+  height: 40px;
+  text-align: center;
+}
+.aksi a {
+  display: inline-block;
+  width: 50px;
+  padding-left: 0;
+}
+.input {
+  border-bottom: 2px solid   #f1cbbd ;
+  border: 0;
+  height: 30px;
+  padding-left: 7px;
+}
+.cr {
+  background-color: black;
+  height: 30px;
+  width: 80px;
+  color: white;
+  border: 2px solid black;
+  transition: 0.3s;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+table {
+  border-collapse: collapse;
+  outline-color: white;
+}
+td, a {color: black; text-decoration: none;}
+body td {
+  background-color: #c9aaff ;
+  color: white;
+}
+body td a {
+  color: white;
+}
+body tr {
+  background-color: #ffaac7 ;
+  color: white;
+}
